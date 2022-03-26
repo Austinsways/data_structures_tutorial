@@ -7,13 +7,13 @@ Sets have no order due to each item being located at its hash value instead of a
 
 A set has the following functions/methods and efficiencys:
     .add(value)
-        adds a value to the set
+        adds a value to the set 
         O(1) efficiency, places a value at its given hash
     .remove(value)
         removes the value given from the set
         O(1) efficiency, removes the value using its hash, no ittertion or shifting elements
     .member(value)
-        finds out if an value is in a set
+        finds out if a value is in a set
         O(1) efficiency, checks the hash of the item for its presence
         the python representation of this is the statement of :
             if value in my_set
@@ -21,7 +21,11 @@ A set has the following functions/methods and efficiencys:
         Returns the size of the Set
         O(1) effieciency, Size of the set is storeed in a variable
         The python representation of this is the statement:
-            length = len(Set)
-        
+            length = len(set)
+    
+In python we can also merge sets to get all the unique components of both, or merge them to only keep the values that are in both. These two operations are called merge union and intersection.
+
+intersections are performed by: set = intersection(set1, set2) or set = set1 & set2
+unions are formed by : set = union(set1, set2) or set = set1 | set2
     
     
