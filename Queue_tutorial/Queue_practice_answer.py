@@ -58,22 +58,25 @@ call_queue = Queue()
 #add the following numbers to the queue
 
 #208-866-7756
-
-#208-898-6657
-
+call_queue.enqueue("208-866-7756")
+#208-898 6657
+call_queue.enqueue("208-898-6657")
 #208-987-6543
-
+call_queue.enqueue("208-987-6543")
 
 print(f"customers in line: {call_queue}") #this should print the three customers number
 """dequeue two numbers then show the queue"""
-
-
+call_queue.dequeue()
+call_queue.dequeue()
 print(f"customers in line after removing two {call_queue}") #this should print one customer number
 
 #check if the queue is empty
-
+if call_queue.is_empty():
+    print("queue is empty")
+else:
+    print("queue is not empty") 
 
 #dequeue the last item then check again.
+call_queue.dequeue()
 
-
-print(f"remaining in queue: {len(call_queue)}") #this should print no numbers
+print(f"remaining in queue: {len(call_queue)}") #this should print 0
