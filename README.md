@@ -1,10 +1,10 @@
-Data Structure Tutorial
+# Data Structure Tutorial
 
 Introduction:
 Relevance of Data structures
 The reasons to use more than just a list/array (efficiency and Big O Notation)
 
-Queue:
+# Queue:
     Applications: When would we use a Queue?
     O Efficiencies/strengths of a queue
     Queuing 
@@ -14,7 +14,7 @@ Queue:
     Sample Problem:
         Using a queue to take calls in a customer service center
 
-Set:
+# Set:
     Applications: When would we use a set?
     O Efficiencies/strengths of a Set
     Adding to a set (no duplicates)
@@ -25,13 +25,12 @@ Set:
     Sample Problem:
         Using a set to figure out which individuals have visited a website (individuals will only be seen once within a set)
 
-Tree
+# Tree
     Applications: When would we use a Binary Search Tree (BST)?
     O Efficiencies/strengths of a BST
     Adding to a BST
     Required organization of a BST (ordered)
-    Nodes:
-        Node left and right value’
+    Nodes
     Root component
     Example:
         Using a BST to hold data/ creating a BST
