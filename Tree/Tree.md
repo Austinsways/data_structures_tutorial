@@ -20,4 +20,4 @@ until it becomes one fo the leaves of the tree. Heres an example.
 
 ![tree image](./images/SortingBST_diagram.jpeg)
 
-Inserting a BST is recursive. To find what were looking for we must itterate through the nodes in the tree until we find our value, or find a location to place into the tree.
+Inserting a BST is recursive, meaning it calls a function upon itself multiple times. To find what were looking for we must itterate through the nodes in the tree until we find our value, or find a location to place into the tree. 

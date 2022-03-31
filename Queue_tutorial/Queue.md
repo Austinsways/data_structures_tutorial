@@ -14,7 +14,7 @@ A queue has the following methods:\
       Python representation: queue.append(item) \
    .dequeue() \
       This removes an item from the front of the queue \
-      O(n) for removing an item because it always takes the item at the front of the queue, and moves the others forward \
+      O(n) for removing an item because it always takes the item at the front of the queue, and moves the others forward (this can be avoided using a different queue type then an array) \
       Python representation: In python we need to save the value to a variable and then delete the variable from the list.  \
          value = queue.pop[0] \
    .size()  \
