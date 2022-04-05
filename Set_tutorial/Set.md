@@ -32,7 +32,12 @@ In python we can also merge sets to get all the unique components of both, or in
 
 ![set image](./images/Union_examples.jpeg)
 
+
 intersections are performed by: set = intersection(set1, set2) or set = set1 & set2 \
 unions are formed by : set = union(set1, set2) or set = set1 | set2 \
     
-    
+The Set example shows an example of a coding problem solved using a Set \
+[Set Example](./Set_example.py)
+
+The Set practice file has practice problems to solve using a Set \
+[Set Practice](./Set_practice.py)
