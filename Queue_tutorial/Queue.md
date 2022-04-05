@@ -28,8 +28,10 @@ A queue has the following methods:\
 
 ![Queue image](./images/EnqueueExample.jpeg) 
 
-The example file shows an example of a queue 
+The example file shows an example of a queue \
+[Queue Example](./Queue_example.py)
 
-the practice file contains code to debug to show understanding of the queue data structure 
+the practice file contains code to debug to show understanding of the queue data structure \
+[Queue Practice](./Queue_practice.py) 
     
 
