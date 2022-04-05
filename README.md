@@ -26,6 +26,7 @@ The reasons to use more than just a list/array (efficiency and Big O Notation)
         Using a set to figure out which individuals have visited a website 
 
 # Tree
+    ![Tree Explanation](./Tree/Tree.md)
     Applications: When would we use a Binary Search Tree (BST)?
     O Efficiencies/strengths of a BST
     Adding to a BST
@@ -36,6 +37,4 @@ The reasons to use more than just a list/array (efficiency and Big O Notation)
         Using a BST to hold data/ creating a BST
     Sample Problem:
         Using a BST to hold and easily access an array of sorted numbers
-
-[url] () this if for links
 
