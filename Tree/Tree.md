@@ -21,3 +21,9 @@ until it becomes one fo the leaves of the tree. Heres an example.
 ![tree image](./images/SortingBST_diagram.jpeg)
 
 Inserting a BST is recursive, meaning it calls a function upon itself multiple times. To find what were looking for we must itterate through the nodes in the tree until we find our value, or find a location to place into the tree. 
+
+The example program for a tree shows some basic tree methods \
+[Tree Example](./Tree_example.py)
+
+The practice program for the tree has some practice problems to help you better challenge your understanding \
+[Tree Practice](./Tree_practice.py)
